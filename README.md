@@ -4,6 +4,7 @@
 Для проверки целостности файла было принято решение использовать функцию хэширования файла - hash_file(), с кодировкой - sha256.
 # В рамках задачи использовалась версия PHP - 8.1
 # Аналоги вышеупомянутой функции в рамках данной задачи:
+Каждый метод использования Хэша взаимозаменяем
 1) sha1_file - https://www.php.net/manual/ru/function.sha1-file.php
 2) md5_file - https://www.php.net/manual/ru/function.md5-file.php
 3) crc32 - https://www.php.net/manual/ru/function.crc32.php (имеет место быть при размере файла менее 2ГБ)
